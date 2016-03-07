@@ -1,0 +1,157 @@
+﻿article div, article p, article a{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+article p, article a{
+	display: inline;
+	line-height: 1.2;
+    margin-bottom:10px;
+}
+
+article p{
+	
+}
+
+article footer{
+	
+	bottom: 0px;
+	text-align:center;
+	text-overflow:clip;
+    position:absolute;
+       bottom:0;
+       width:100%; 
+}
+
+article
+	{
+		position:relative;
+		width: 21%;
+		margin-left:1%;
+		margin-right:1%;
+		background-color: #479A94;
+		/*height: 100px;*/
+		margin-top: 8px;
+		min-height: 95px;
+		display: inline-block;
+		padding: 5px;
+		vertical-align: bottom;
+		overflow: hidden;
+		text-overflow: ellipsis; 
+		height: 100px;
+	}
+	
+article.big
+	{
+		width: 46%;
+		min-height:90px;
+	}
+
+section{
+	
+	//height: 400px;
+	position: relative;
+	word-spacing: -1;
+}
+
+
+
+.image, .image img{
+	width: 60px;
+	margin: 1px;
+    padding: 1px;
+    padding-right:5px;
+}
+
+.big .image, .big .image img
+{
+	margin: 1px;
+	padding: 0px;
+    margin: auto;
+	width: 90px;
+
+	
+}
+
+
+
+.image{
+float:left;
+}
+
+@media only screen and (max-width: 850px)
+{
+	article.big
+	{
+		width: 44% ;
+		
+	}
+}
+
+@media only screen and (max-width: 800px)
+{
+	header,nav, section
+	{
+		width: 100% ;
+	}
+}
+
+
+@media only screen and (max-width: 500px)
+{
+	article
+	{
+		width: 90% ;
+		margin-left:auto ;
+		margin-right:auto ;
+		//margin-top: 8px ;
+        display:block;
+	}
+    section{
+        padding-top:8px;
+    }
+	
+	article.big
+	{
+		width: 90% ;
+	}
+	
+	
+	.image, .image img{
+		width: 60px ;
+		height: 60px ;
+	}
+	
+	header,nav, section
+	{
+		width: 100% ;
+		
+	}
+	nav ul li
+	{
+		width:100%;
+		display:block ;
+		height:30px ;
+	}
+	
+	nav ul
+	{
+		margin-top: 5px ;
+		border-width:2px;
+		border-color: #11BCBC;
+		border-bottom-style:solid;
+	}
+}
+
+@media only screen and (max-width: 220px)
+{
+	h1{
+	font-size: 25px ;
+	 line-height: 2.5 ;
+	}
+	
+	nav ul li a {
+	font-size: 15px ; 
+	}
+}

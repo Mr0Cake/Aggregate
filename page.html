@@ -1,0 +1,306 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+
+
+</script>
+
+
+<style>
+body{
+margin:0;
+padding:0;
+width:100%;
+}
+
+@media only screen and (max-width: 850px)
+{
+	article.big
+	{
+		width: 45% !important;
+		
+	}
+}
+
+@media only screen and (max-width: 800px)
+{
+	header,nav, section
+	{
+		width: 100% !important;
+		
+	}
+}
+
+@media only screen and (max-width: 500px)
+{
+	header,nav, section
+	{
+		width: 100% !important;
+		
+	}
+	
+	article.big
+	{
+		width: 43% !important;
+		
+	}
+}
+
+@media only screen and (max-width: 420px)
+{
+	article
+	{
+		width: 90% !important;
+		margin-left:5% !important;
+		margin-right:5% !important;
+		margin-top: 8px !important;
+	}
+	
+	article.big
+	{
+		width: 90% !important;
+		
+	}
+	
+	
+	.image, .image img{
+		width: 60px !important;
+		height: 60px !important;
+	}
+	
+	header,nav, section
+	{
+		width: 100% !important;
+		
+	}
+	nav ul li
+	{
+		width:100%;
+		display:block !important;
+		height:30px !important;
+	}
+	
+	nav ul
+	{
+		margin-top: 5px !important;
+		border-width:2px;
+		border-color: #11BCBC;
+		border-bottom-style:solid;
+	}
+}
+
+@media only screen and (max-width: 220px)
+{
+	h1{
+	font-size: 25px !important;
+	 line-height: 2.5 !important;
+	}
+	
+	nav ul li a {
+	font-size: 15px !important; 
+	}
+}
+
+article div, article p, article a{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+article p, article a{
+	display: inline;
+	line-height: 1.2;
+}
+
+article p{
+	
+}
+
+article footer{
+	
+	bottom: 0px;
+	text-align:center;
+	text-overflow:clip;
+}
+
+article
+	{
+		position:relative;
+		width: 21%;
+		margin-left:1%;
+		margin-right:1%;
+		background-color: gray;
+		/*height: 100px;*/
+		margin-top: 8px;
+		min-height: 95px;
+		display: inline-block;
+		padding: 5px;
+		vertical-align: bottom;
+		overflow: hidden;
+		text-overflow: ellipsis; 
+		height: 100px;
+	}
+	
+article.big
+	{
+		width: 47%;
+		min-height:90px;
+	}
+
+section{
+	background-color: #9BCFCF;
+	height: 400px;
+	position: relative;
+	word-spacing: -1;
+}
+
+header
+{
+	height: 70px;
+}
+h1
+{
+	text-align:center;
+	color:#11BCBC;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 38px;
+	padding-top: 5px;
+	line-height:1.5;
+}
+
+header, nav, section
+{
+	
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+nav
+{
+	/*height:20px;*/
+	border-width:2px;
+	border-color: #11BCBC;
+	border-top-style:solid;
+}
+
+nav ul
+{
+	list-style-type:none;
+	margin:0;
+	padding: 0;
+	text-align:center;
+}
+
+nav ul li
+{
+	display:inline-block;
+}
+
+nav ul li a
+{
+	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-decoration: none;
+	color: #008383;
+	margin-top:0;
+	font-weight:bold;
+}
+
+nav ul li a:hover
+{
+	background-color:#008383;
+	color:white;
+}
+
+.image, .image img{
+	width: 60px;
+	height: 60px;
+	margin: 1px;
+}
+
+.big .image, .big .image img
+{
+	margin: 1px;
+	padding: 0px;
+	width: 90px;
+	height: 90px;
+	
+}
+
+
+
+.image{
+float:left;
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1>AGGREGATE</h1>
+</header>
+
+<nav>
+<ul>
+	<li>
+		<a href="news.asp">NEWS</a>
+	</li>
+	<li>
+		<a href="unread.asp">UNREAD</a>
+	</li>
+	<li>
+		<a href="categories.asp">CATEGORIES</a>
+	</li>
+	<li>
+		<a href="subscriptions.asp">SUBSCRIPTIONS</a>
+	</li>
+	<li>
+		<a href="settings.asp">SETTINGS</a>
+	</li>
+	<li>
+		<a href="login.asp">LOGIN</a>
+	</li>
+</ul>
+</nav>
+
+<section>
+
+<article>
+<div class="image">
+	<image src="Windows-Close-Program-icon.png">
+</div>
+<p> Lorem ipsum dolor ist amet blablabla doel qopq ehk dm diz Lorem ipsum dolor ist amet blablabla doel qopq ehk dm diz</p>
+<footer>
+<a href="#">article link</a>
+</footer>
+</article>
+
+<article>
+<div class="image">
+<image src="Windows-Close-Program-icon.png"></div>
+<p> Lorem ipsum dolor ist amet blablabla doel qopq ehk dm diz </p>
+<footer>
+<a href="#">article link</a>
+</footer>
+</article>
+
+<article class="big">
+<div class="image">
+<image src="Windows-Close-Program-icon.png"></div>
+<p> Lorem ipsum dolor ist amet blablabla doel qopq ehk dm diz </p>
+<footer>
+<a href="#">article link</a>
+</footer>
+</article>
+
+</section>
+
+
+
+</body>
+</html>

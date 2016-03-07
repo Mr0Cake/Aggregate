@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterAggregate.master" AutoEventWireup="true" CodeFile="UserPage.master.cs" Inherits="Users_UserPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+    <nav>
+        <ul>
+	        <li>
+		        <a href="news.asp">NEWS</a>
+	        </li>
+	        <%--<li>
+		        <a href="unread.asp">UNREAD</a>
+	        </li>--%>
+	        <li>
+		        <a href="categories.asp">CATEGORIES</a>
+	        </li>
+	        <%--<li>
+		        <a href="subscriptions.asp">SUBSCRIPTIONS</a>
+	        </li>
+	       <li>
+		        <a href="settings.asp">SETTINGS</a>
+	        </li>--%>
+	        <li>
+		        <a href="login.asp">LOGIN</a>
+	        </li>
+        </ul>
+    </nav>
+    <asp:ContentPlaceHolder ID="BodyContent" runat="Server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>
+

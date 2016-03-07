@@ -1,0 +1,11 @@
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\obj\Debug\aggretateService.csprojResolveAssemblyReference.cache
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\bin\Debug\aggretateService.exe.config
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\bin\Debug\aggretateService.exe
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\bin\Debug\aggretateService.pdb
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\bin\Debug\DAL.dll
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\bin\Debug\DAL.pdb
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\obj\Debug\aggretateService.exe
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\obj\Debug\aggretateService.pdb
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Cake\Dropbox\Github\Aggregate\aggretateService\bin\Debug\HtmlAgilityPack.xml
